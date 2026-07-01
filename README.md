@@ -5,6 +5,16 @@
 A tiny Chrome/Arc extension that adds a one-click **"Not interested"** button to every
 tweet's action row on x.com — no more clicking the "···" menu per post.
 
+## Demo
+
+**With Tweh** — one click on the button, and the post is gone:
+
+https://github.com/yashvardhan-kukreja/tweh/releases/download/v1.0.0/demo-with-tweh.mp4
+
+**Without Tweh** — the usual "···" → *Not interested in this post* dance:
+
+https://github.com/yashvardhan-kukreja/tweh/releases/download/v1.0.0/demo-without-tweh.mp4
+
 ## How it works
 
 Instead of touching X's private API (fragile, needs auth tokens), the button just drives
