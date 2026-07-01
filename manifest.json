@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Tweh",
+  "version": "1.0.0",
+  "description": "One-click 'Not interested' button on X.com tweets — tweet, meh.",
+  "icons": { "128": "icon.png" },
+  "content_scripts": [
+    {
+      "matches": ["https://x.com/*", "https://twitter.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

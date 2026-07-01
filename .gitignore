@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Editor / OS cruft
+*.swp
+*~
+.idea/
+.vscode/
+
+# Packaged builds
+*.zip
+*.crx
+*.pem

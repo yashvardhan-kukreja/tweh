@@ -1,0 +1,25 @@
+/* Injected "Not interested" button — matches X's action-row buttons. */
+.disinterested-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34.75px;
+  height: 34.75px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  color: rgb(113, 118, 123); /* X's muted action-icon grey */
+  cursor: pointer;
+  border-radius: 9999px;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.disinterested-btn svg {
+  fill: currentColor;
+}
+
+.disinterested-btn:hover {
+  color: rgb(244, 33, 46); /* X's red */
+  background-color: rgba(244, 33, 46, 0.1);
+}
