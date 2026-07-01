@@ -9,11 +9,11 @@ tweet's action row on x.com — no more clicking the "···" menu per post.
 
 **With Tweh** — one click on the button, and the post is gone:
 
-https://github.com/yashvardhan-kukreja/tweh/releases/download/v1.0.0/demo-with-tweh.mp4
+![With Tweh — one click marks the post Not interested](https://github.com/yashvardhan-kukreja/tweh/releases/download/v1.0.0/demo-with-tweh.gif)
 
 **Without Tweh** — the usual "···" → *Not interested in this post* dance:
 
-https://github.com/yashvardhan-kukreja/tweh/releases/download/v1.0.0/demo-without-tweh.mp4
+![Without Tweh — clicking through the three-dot menu](https://github.com/yashvardhan-kukreja/tweh/releases/download/v1.0.0/demo-without-tweh.gif)
 
 ## How it works
 
