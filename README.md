@@ -24,20 +24,35 @@ toast, so a misclick is easy to reverse.
 
 Zero dependencies, no build step, no special permissions — one content script and a bit of CSS.
 
-## Install (load unpacked)
+## Install
 
-1. **Chrome:** open `chrome://extensions`, toggle **Developer mode** (top-right).
+### From the Chrome Web Store (recommended)
+
+> 🚧 **Pending review** — the store link will be added here once the listing is approved.
+
+<!-- Once live, replace the line below with your store URL, e.g.
+     **[➕ Add Tweh to Chrome](https://chromewebstore.google.com/detail/<item-id>)** -->
+
+One click to install — and it auto-updates. Works in **Chrome, Arc, Brave, Edge**, and other
+Chromium-based browsers.
+
+### Manually (load unpacked — for development or before approval)
+
+1. Download this repo (green **Code** button → *Download ZIP*, or grab `tweh.zip` from the
+   [latest release](https://github.com/yashvardhan-kukreja/tweh/releases/latest)) and unzip it.
+2. **Chrome:** open `chrome://extensions`, toggle **Developer mode** (top-right).
    **Arc:** open `arc://extensions` (or Extensions menu → Manage Extensions — Arc is Chromium-based).
-2. Click **Load unpacked** and select this `tweh` folder.
-3. Open [x.com](https://x.com) — you'll see a small circle-slash icon in each tweet's action row.
+3. Click **Load unpacked** and select the `tweh` folder.
+4. Open [x.com](https://x.com) — you'll see a small circle-slash icon in each tweet's action row.
 
 After editing the code, hit the **reload** icon on the extension card and refresh your x.com tab.
 
 ## Usage
 
 Click the icon (next to the like button) on any tweet to mark it "Not interested" instantly.
-It works on the home timeline, profiles, search results, and replies. Promoted/ad posts that
-have no "Not interested" option are skipped silently.
+It works on the home timeline, search results, and individual post pages. Profile pages are
+skipped (X doesn't offer a "Not interested" option there), and promoted/ad posts without the
+option are ignored silently.
 
 ## Files
 
