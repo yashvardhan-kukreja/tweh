@@ -5,6 +5,8 @@
 A tiny Chrome/Arc extension that adds a one-click **"Not interested"** button to every
 tweet's action row on x.com — no more clicking the "···" menu per post.
 
+[![Available in the Chrome Web Store](https://img.shields.io/chrome-web-store/v/gimblpdhecjgflikgkojfahlgnlhiijg?label=Chrome%20Web%20Store&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/tweh/gimblpdhecjgflikgkojfahlgnlhiijg)
+
 ## Demo
 
 **With Tweh** — one click on the button, and the post is gone:
@@ -28,10 +30,7 @@ Zero dependencies, no build step, no special permissions — one content script 
 
 ### From the Chrome Web Store (recommended)
 
-> 🚧 **Pending review** — the store link will be added here once the listing is approved.
-
-<!-- Once live, replace the line below with your store URL, e.g.
-     **[➕ Add Tweh to Chrome](https://chromewebstore.google.com/detail/<item-id>)** -->
+**[➕ Add Tweh to Chrome](https://chromewebstore.google.com/detail/tweh/gimblpdhecjgflikgkojfahlgnlhiijg)**
 
 One click to install — and it auto-updates. Works in **Chrome, Arc, Brave, Edge**, and other
 Chromium-based browsers.
